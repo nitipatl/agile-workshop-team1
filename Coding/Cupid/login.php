@@ -13,7 +13,7 @@
             <div class="account-wall">
                 <img class="profile-img" src="images/logo.png"
                     alt="">
-                <form action="css/CheckLogin.php" method="post" class="form-signin">
+                <form action="CheckLogin.php" method="post" class="form-signin">
                 <input type="text" class="form-control" placeholder="Username" name="user" >
                 <input type="password" class="form-control" placeholder="Password" name="password">
                 <button class="btn btn-lg btn-primary btn-block" type="submit">
