@@ -1,0 +1,12 @@
+<?php
+$host = "localhost";
+$username = "team1";
+$password = "QIw0VaXCAlBGdex5";
+$connect = mysql_connect($host,$username,$password) ;
+if (!$connect) {
+	echo "<h3>ERROR : ???????????????????????????</h3>";
+	exit();
+}
+mysql_query("set NAMES tis620 ");
+mysql_select_db($db); 
+?>

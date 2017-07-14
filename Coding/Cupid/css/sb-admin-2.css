@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - SB Admin 2 Bootstrap Admin Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    background-color: #EC5512;
+	font-family: 'TH SarabunPSK';
+	font-size:160%;
+	margin-top: 40px;
+}
+
+#wrapper {
+	
+    width: 100%;
+	
+}
+
+#page-wrapper {
+    padding: 60px 20px;
+    min-height: 568px;
+    background-color: #fff;
+}
+
+.bg-green {
+	color: #fff;
+	background-color: #EC5312;
+}
+
+.navbar {
+  min-height: 100px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .navbar-header {
+    float: none;
+  }
+  .dl-horizontal1 dt {
+    float: left;
+    width: 120px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .dl-horizontal1 dd {
+    margin-left: 140px;
+  }
+  
+  
+}
+
+.navbar-default {
+  background-color: #EC5512;
+  /*border-color: #e7e7e7;*/
+}
+.navbar-b {
+  float: left;
+  height: 100px;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: #6C6D6E;
+  line-height: 20px;
+}
+navbar-header > user{
+	margin-bottom: 1px;
+}
+
